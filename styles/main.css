@@ -2,7 +2,7 @@ body {
 	font-family: Trebuchet ms;
 	color: #4169E1;
 	background-color: LightGray
-	background-image: URL ("https://s-media-cache-ak0.pinimg.com/originals/bb/00/bd/bb00bde995b5e06f4079dca075ee9316.jpg");
+	background-image: url ("https://s-media-cache-ak0.pinimg.com/originals/bb/00/bd/bb00bde995b5e06f4079dca075ee9316.jpg");
 }
 h1 {
 	font-family: Trebuchet ms;
