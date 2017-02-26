@@ -1,2 +1,2 @@
-# simonol.github.io
-Simon's blog
+Simon O'Leary
+
