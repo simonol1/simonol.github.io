@@ -1,8 +1,9 @@
 body {
 	font-family: Trebuchet ms;
-	color: blue;
+	color: ; SteelBlue;
+	background-color: LightGray
 }
 h1 {
 	font-family: Trebuchet ms;
-	color: blue;
+	color: MidnightBlue;
 }
