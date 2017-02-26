@@ -1,12 +1,15 @@
 body {
 	font-family: Trebuchet ms;
 	color: #4169E1;
-	background: url ('http://www.wallpaperup.com/uploads/wallpapers/2013/01/11/28869/d4a940fd7784976fc4f9fa7d15a98aa8.jpg');
 }
+html {
+	background-image: url ('http://www.wallpaperup.com/uploads/wallpapers/2013/01/11/28869/d4a940fd7784976fc4f9fa7d15a98aa8.jpg') no-repeat center center fixed;
+}
+
 h1 {
 	font-family: Trebuchet ms;
 	color: #191970;
-	font-size: 24px;
+	font-size: 60px;
 }
 
 h2 {
