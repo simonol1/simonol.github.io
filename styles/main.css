@@ -2,6 +2,7 @@ body {
 	font-family: Trebuchet ms;
 	color: #191970;
 	font-size: 20px;
+    padding: 20px;
 }
 html {
 	background-image: url('http://www.wallpaperup.com/uploads/wallpapers/2013/01/11/28869/d4a940fd7784976fc4f9fa7d15a98aa8.jpg');
@@ -11,9 +12,16 @@ h1 {
 	font-family: Trebuchet ms;
 	color: #191970;
 	font-size: 60px;
+    margin-top:20px;
+    margin-left: 20px;
+    padding: 5px;
+    display: inline-block;
 }
 
 h2 {
 	font-family: Trebuchet ms;
 	color: #191970;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
 }
