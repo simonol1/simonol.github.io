@@ -18,10 +18,17 @@ h1 {
     display: inline-block;
 }
 
+div {
+    display: centre;
+    padding: 10px;
+}
 h2 {
 	font-family: Trebuchet ms;
 	color: #191970;
     margin-top: 20px;
     margin-left: 20px;
     padding: 5px;
+}
+.transparent {
+    background: rgba(176, 196, 222, 0.75);
 }
