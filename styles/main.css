@@ -13,13 +13,13 @@
   font-size: 20px;
   padding: 0 25px 0 0;
   color: rgb(238, 223, 204);
-  font-family: trebuchet ms;
+  font-family: t"Trebuchet ms", "Helvetica", "Arial";
 }
 
 .nav > li > a {
   text-decoration: none;
   color: rgb(238, 223, 204);
-  font-family: trebuchet ms;
+  font-family: "Trebuchet ms", "Helvetica", "Arial";
 }
 
 .nav > li > a:hover {
@@ -53,7 +53,7 @@ font-family: trebuchet ms;
   text-decoration: none;
   text-align: center;
   color: SteelBlue;
-  font-family: trebuchet ms;
+  font-family: "Trebuchet ms", "Helvetica", "Arial";
 }
 a {
   text-decoration: none;
@@ -67,10 +67,9 @@ a {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  font-family: trebuchet ms;
+  font-family: "Trebuchet ms", "Helvetica", "Arial";
   padding: 0;
   margin: 0;
-  background-color: #F5F5F5;
 }
 
 /* applies to all pages */
@@ -78,11 +77,11 @@ a {
 .container {
   text-align: center;
   width: 90%;
-  background-color: rgba( 238, 223, 204, 0.7);
+  background-color: rgba( 238, 223, 204, 0.8);
   font-size: 30px;
   padding: 0 10px 0px 0px;
   font-weight: bold;
-  font-family: trebuchet ms;
+  font-family: "Trebuchet ms", "Helvetica", "Arial";
 }
 
 
@@ -124,7 +123,7 @@ div > hr {
   text-align: right;
   padding-right: 25px;
   font-color: #B0C4DE;
-  font-family: trebuchet ms;
+  font-family: "Trebuchet ms", "Helvetica", "Arial";
 }
 /* wire frames in design to web */
 
@@ -155,18 +154,18 @@ h5 {
   text-align: left;
   padding-left: 10px;
   font-weight: bold;
-  font-family: trebuchet ms;
+  font-family: "Trebuchet ms", "Helvetica", "Arial";
 }
 
 p {
   font-size: 16px;
   text-align: left;
   padding-left: 15px;
-  font-family: trebuchet ms;
+  font-family: "Trebuchet ms", "Helvetica", "Arial";
 }
 .blogs {
   width: 80%;
-  font-family: trebuchet ms;
+  font-family: "Trebuchet ms", "Helvetica", "Arial";
   margin-right: auto;
   margin-left: auto;
 }
