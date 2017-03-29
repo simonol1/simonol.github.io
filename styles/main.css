@@ -1,52 +1,60 @@
+
+
 /* nav bar */
 
-.nav {
-  list-style-type: none;
-  letter-spacing: 1.5px;
-  background-color: SteelBlue;
-  padding: 10px 0 10px 0;
-  text-align: right;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: steelBlue;
 }
 
-.nav > li {
-  display: inline;
-  font-size: 20px;
-  padding: 0 25px 0 0;
-  color: rgb(238, 223, 204);
-  font-family: t"Trebuchet ms", "Helvetica", "Arial";
+li {
+    float: left;
 }
 
-.nav > li > a {
-  text-decoration: none;
-  color: rgb(238, 223, 204);
-  font-family: "Trebuchet ms", "Helvetica", "Arial";
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
 }
 
-.nav > li > a:hover {
-  color: LightSteelBlue;
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
 }
 
-.logo {
- color:rgb(238, 223, 204);
- display: inline;
- text-align: left;
- float: left;
- padding-left: 25px;
- font-size: 20px;
- font-weight: bold;
-font-family: trebuchet ms;
+li.dropdown {
+    display: inline-block;
 }
 
-.logo > li > a {
-  text-decoration: none;
-  color:rgb(238, 223, 204);
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
-/* end of nav bar info*/
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 
-
-/* home page p tags*/
+/*home page p tags*/
 
 .headers {
   font-size: 25px;
@@ -70,6 +78,8 @@ a {
   font-family: "Trebuchet ms", "Helvetica", "Arial";
   padding: 0;
   margin: 0;
+  background-image: url("../images/dreaming.jpg");
+
 }
 
 /* applies to all pages */
@@ -83,7 +93,12 @@ a {
   font-weight: bold;
   font-family: "Trebuchet ms", "Helvetica", "Arial";
 }
-
+.homepage {
+  font-size: 100px;
+  float: right;
+  padding-right: 30px;
+  font-family: "Vladimir Script", "Trebuchet ms";
+}
 
 .row {
   text-align: center;
@@ -99,20 +114,39 @@ div > hr {
   max-width: 80%
 }
 
-.image {
-  width: 430px; height:300px;
-  padding: 10px;
-  margin: 10px;
-}
-
 /*footer */
 
+#wrapper {
+  height: 100%;
+}
+
+#footer {
+  letter-spacing: 1.5px;
+  background-color: #eeeeee;
+  text-align: right;
+  margin: 0;
+  padding: 10px 0 10px 0;
+  height: 2em;
+  width: 100%;
+  color: #B0C4DE; /*light steel blue*/
+  position: absolute;
+  bottom: 0;
+
+}
+
+#footer > p {
+  font-size: 14px;
+  padding-right: 25px;
+  font-color: #B0C4DE;
+  font-family: "Trebuchet ms", "Helvetica", "Arial";
+  text-align: right;
+}
 .footer {
   letter-spacing: 1.5px;
   background-color: #eeeeee;
   text-align: right;
   margin: 0;
-  padding: 20px 0 20px 0;
+  padding: 10px 0 10px 0;
   height: 2em;
   width: 100%;
   color: #B0C4DE; /*light steel blue*/
@@ -120,10 +154,10 @@ div > hr {
 
 .footer > p {
   font-size: 14px;
-  text-align: right;
   padding-right: 25px;
   font-color: #B0C4DE;
   font-family: "Trebuchet ms", "Helvetica", "Arial";
+  text-align: right;
 }
 /* wire frames in design to web */
 
