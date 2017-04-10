@@ -217,4 +217,15 @@ p {
   font-size: 16px;
   text-align: left;
   padding-left: 15px;
+  color: inherit;
+  background-color: none;
+}
+
+.wishlist > li {
+  color: inherit;
+  background-color: none;
+}
+
+body {
+  background-color: lightGrey;
 }
